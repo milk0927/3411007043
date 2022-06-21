@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 800px;
+            height: 600px;
+            margin: 0 auto;
+        }
+        .header{
+            background-color: orange;
+            height: 100px;
+        }
+        .nav{
+            background-color: deeppink;
+            height: 30px;
+            margin-top: 5px;
+        }
+        .main{
+            margin-top: 5px;
+        }
+        .aside{
+            float:left;
+            background-color: pink;
+            width:30%;
+            height: 300px;
+        }
+        .article{
+            float:right;
+            background-color: deepskyblue;
+            width:68%;
+            padding: 5px;
+            height: 290px;
+        }
+        .section{
+            position: relative; /*相對位置*/
+            top:58%;
+            background-color: yellow;
+            height: 100px;
+        }
+        .footer{
+            clear:both;
+            float:left;
+            width: 100%;
+            margin-top: 5px;
+            height: 100px;
+            background-color: darkseagreen;
+        }
+    </style>    
+</head>
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="nav">nav</div>
+        <div class="main">
+            <div class="aside">aside</div>
+            <div class="article">
+                article
+                <div class="section">section</div>
+            </div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    第一次作業
+    姓名:繆合
+    學號:3411007043
+    <a href="43.html">元件練習</a>
+    <a href="table.html">表格練習</a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <table border="1" width="300" cellpadding="0" cellspacing="0" align="center">
+<tr>
+    <td colspan="3">1</td>
+    </tr>
+    <tr>
+<td>2</td>
+<td colspan="2">3</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    </tr>
+</table>
+<br>
+<table border="1" width="300" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" width="300"  align="center">
+        <tr>
+                 <td align="center" colspan="3">我的最愛</td>
+        </tr>
+        <tr>
+               <td align="center" rowspan="1">連結名稱</td> 
+               <td align="center" colspan="2">連結網址</td>
+        </tr>
+        <tr>
+             <td>Google</td>
+             <td><a href="https://www.google.com.tw/">Google</a></td>
+        </tr>
+         <tr>
+             <td>Youtube</td>
+             <td><a href="https://www.youtube.com/">Youtube</a></td>
+        <tr>
+        <tr>
+             <td>Pchome</td>
+             <td><a href="https://shopping.pchome.com.tw/">Pchome</a></td>
+        </tr>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>元件練習</title>
+</head>
+<body>
+    <h1 id="up">h1標籤</h1>
+    <h2>h2標籤</h2>
+    <h3>h3標籤</h3>
+    <h4>h4標籤</h4>
+    <h5>h5標籤</h5>
+    <h6>h6標籤</h6>
+    <hr>
+    <h6>段落</h6>
+    <p>第一個段落</p>
+    <hr>
+    <h6>標籤</h6>
+    Lorem ipsum dolor sit amet<span style="color: red;"> consectetur adipisicing </span> elit. Itaque, libero. Laboriosam cupiditate quae architecto eum labore molestias reprehenderit inventore ducimus? Et rem ex aliquid est aut autem voluptatibus eos delectus?
+    Totam dolor cupiditate eos error minima suscipit pariatur minus magni, vel labore nam, doloribus id! Doloremque quisquam fugit et dolorum modi, deserunt in repellendus architecto error necessitatibus.<spen style="color: blue;"> Amet, perspiciatis quam.</spen>
+    <hr>
+    <h6>換行(br)</h6>
+    90
+    <br>
+    0605
+    <hr>
+    <h6>格式化段落(pre)</h6>
+    <pre>
+        90
+        0605
+        520
+
+    </pre>
+    <hr>
+    <h6>文字化格式</h6>
+    <b>粗體</b>
+    <i>斜體</i>
+    <sub>下標標籤</sub>
+    <sup>上標標籤</sup>
+    <ins>新增標示</ins>
+    <del>刪除標示</del>
+    <mark>標註</mark>
+    <hr>
+    <a href="https://www.nutc.edu.tw">台中科技大學</a>
+    <a href="https://www.google.com.tw" target="_blank">google</a>
+    <a href="#up">移到最上面</a>
+    <hr>
+    <h6>image圖片</h6>
+    <img src="6446318.png" alt="" width="100" height="100">
+    <img src="https://fakeimg.pl/500x500/200" >
+    <hr>
+    <h6>列表ol li</h6>
+    <ul type="square">
+        <li>001</li>
+        <li>002</li>
+        <li>003</li>
+    </ul>
+    <ol type="I">
+        <li>001</li>
+        <li>002</li>
+        <li>003</li>
+    </ol>
+    <hr>
+    <h2><input></h2>
+    輸入框:<input type="text">
+    輸入數字:<input type="number" min="0" max=" 10">
+    輸入日期:<input type="date" min="2020-01-01" max="2022-03-29">
+    輸入時間:<input type=" time">
+    按鈕: <input type=" button" value="確定">
+    檔案上傳: <input type=" file">
+    複選:<input type="checkbox">
+    單選:<input type="radio">
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 型態選擇器(標籤型態選擇器(標籤) */
+        span{
+            color: red;
+        }
+        /* class選擇器(使用.符號) */
+        .one{
+            color: red;
+        }
+        /* id選擇器(使用#符號) */
+        #one{
+            color: blueviolet;
+        }
+        /* 通用選擇器 (使用*符號)*/
+        *{
+            font-family: "標楷體";
+        }
+        /* 屬性選擇器 */
+        input[type="button"]{
+            background-color: yellow;
+        }
+        /* 後代選擇器(使用空格) */
+        .two li{
+            color: red;
+        }
+        /* 子選擇器(使使用>符號) */
+        div>a{
+            color: green
+        }
+        /* 同層相鄰選擇器(使用+符號) 、同層全體選擇器(使用~符號)*/
+        /*u1+p{
+            color: red;
+        } */
+        u1~p{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h2>型態選擇器(標籤)</h2>
+       <span>型態選擇器</span>
+    <hr>
+    <h2>class選擇器(使用.符號)</h2>
+        <a href="#" class="one">test</a>
+    <hr>
+    <h2>id選擇器(使用#符號)</h2>
+        <a href="#" id="one">id選擇器</a>
+        <hr>
+        <h2>屬性選擇器</h2>
+           <input type="button" value="按鈕">
+        <hr>
+        <h2>後代選擇器(使用空格)</h2>
+            <ul class="two">
+                 <li>1</li>
+                 <li>2</li>
+                 <li>3</li>
+                </ul>
+                <ol>
+                 <li>1</li>
+                 <li>2</li>
+                 <li>3</li>
+            </ol>
+    <hr>
+    <h2>子選擇器(使用>符號)</h2>
+        <div>
+            <p>
+                <a href="#">p</a>
+            </p>
+        </div>
+        <div>
+            <a href="#">a</a>
+        </div>
+    <hr>
+    <h2>同層相鄰選擇器(使用+符號) 、同層全體選擇器(使用~符號)</h2>
+        <u1>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </u1>
+        <p>tt1</p>
+        <p>tt2</p>
+        <p>tt3</p>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <p>tt1</p>
+        <p>tt2</p>
+        <p>tt3</p>
+    <hr>
+</body>
+</html>
